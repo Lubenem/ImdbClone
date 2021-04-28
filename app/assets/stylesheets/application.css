@@ -31,3 +31,13 @@ p {
 .title {
   font-size: x-large;
 }
+
+.credits {
+  text-align: right;
+  font-size: 80%;
+}
+
+.credits_list {
+  padding-right: 1%;
+  direction: rtl;
+}
