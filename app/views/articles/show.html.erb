@@ -2,6 +2,14 @@
 
 <p><%= @article.body %></p>
 
+<% if @article.image.attached? %>
+  <div style="width:500px; height:auto">
+    <%= image_tag(@article.image, style:'width:100%') %>
+  </div>
+<% end %>
+
+<p>rating: <%= @article.rating %></p>
+
 <ul>
   <li><%= link_to "Edit", edit_article_path(@article) %></li>
 

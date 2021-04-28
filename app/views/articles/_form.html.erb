@@ -6,7 +6,7 @@
       <div><%= message %></div>
     <% end %>
   </div>
-
+  <br>
   <div>
     <%= form.label :body %><br>
     <%= form.text_area :body %><br>
@@ -14,8 +14,25 @@
       <div><%= message %></div>
     <% end %>
   </div>
-
+  <br>
+  <div class="field", style="color: white;">
+    <%= form.label :iamge %>
+    <%= form.file_field :image%>
+  </div>
+  <br>
+  <div>
+    <%= form.label :rating %><br>
+    <%= form.text_field :rating %>
+    <% article.errors.full_messages_for(:rating).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <br>
   <div>
     <%= form.submit %>
+  </div>
+  <br>
+  <div>
+    <li><%= link_to "Back", root_path %></li>
   </div>
 <% end %>
