@@ -35,9 +35,10 @@ p {
 .credits {
   text-align: right;
   font-size: 80%;
+  padding-right: 1%;
 }
 
 .credits_list {
-  padding-right: 1%;
+  padding-right: 2.5%;
   direction: rtl;
 }
