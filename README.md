@@ -8,4 +8,5 @@ https://imdb-clone-lubenem.herokuapp.com/
 
     * RubyOnRails, https://rubyonrails.org
     * Heroku, https://www.heroku.com
-    * Movie list by Colin McCormick, https://screenrant.com/best-movies-ever-made-imdb-rating
+    * "The 15 Best Movies Of All Time..." list by Colin McCormick,
+        https://screenrant.com/best-movies-ever-made-imdb-rating
